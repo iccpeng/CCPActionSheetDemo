@@ -15,6 +15,7 @@
 		210AAB551D5051C000B7EF24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 210AAB521D5051C000B7EF24 /* AppDelegate.m */; };
 		210AAB561D5051C000B7EF24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210AAB541D5051C000B7EF24 /* ViewController.m */; };
 		210AAB591D5051F400B7EF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210AAB571D5051F400B7EF24 /* Main.storyboard */; };
+		212F5BA21D62DB6600F71FA6 /* CCPActionSheetImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 212F5BA11D62DB6600F71FA6 /* CCPActionSheetImage.gif */; };
 		7E1EF2141D3FBFAE00F21012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EF2131D3FBFAE00F21012 /* main.m */; };
 		7E1EF21F1D3FBFAE00F21012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1EF21E1D3FBFAE00F21012 /* Assets.xcassets */; };
 		7E1EF2221D3FBFAE00F21012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1EF2201D3FBFAE00F21012 /* LaunchScreen.storyboard */; };
@@ -56,6 +57,7 @@
 		210AAB531D5051C000B7EF24 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		210AAB541D5051C000B7EF24 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		210AAB581D5051F400B7EF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212F5BA11D62DB6600F71FA6 /* CCPActionSheetImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CCPActionSheetImage.gif; sourceTree = "<group>"; };
 		7E1EF20F1D3FBFAE00F21012 /* CCPActionSheetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPActionSheetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1EF2131D3FBFAE00F21012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E1EF21E1D3FBFAE00F21012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,6 +134,14 @@
 			path = Class;
 			sourceTree = "<group>";
 		};
+		212F5BA01D62DB3400F71FA6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				212F5BA11D62DB6600F71FA6 /* CCPActionSheetImage.gif */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		7E1EF2061D3FBFAE00F21012 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +165,7 @@
 		7E1EF2111D3FBFAE00F21012 /* CCPActionSheetDemo */ = {
 			isa = PBXGroup;
 			children = (
+				212F5BA01D62DB3400F71FA6 /* Image */,
 				210AAB501D5051C000B7EF24 /* Class */,
 				210AAB471D5051B100B7EF24 /* CCPActionSheetView */,
 				210AAB411D50519F00B7EF24 /* Category */,
@@ -314,6 +325,7 @@
 				7EFA35841D4CAED400B686D9 /* CCPMultipleChoiceCell.xib in Resources */,
 				7E1EF2221D3FBFAE00F21012 /* LaunchScreen.storyboard in Resources */,
 				7E1EF21F1D3FBFAE00F21012 /* Assets.xcassets in Resources */,
+				212F5BA21D62DB6600F71FA6 /* CCPActionSheetImage.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
