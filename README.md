@@ -10,8 +10,7 @@
 
 ##b.效果图
 
-
-https://github.com/IMCCP/CCPActionSheetDemo/blob/master/CCPActionSheetDemo/Image/CCPActionSheetImage.gif
+![Image text](https://github.com/IMCCP/CCPActionSheetDemo/blob/master/CCPActionSheetDemo/Image/CCPActionSheetImage.gif)
 
 ##c.使用示例
 
