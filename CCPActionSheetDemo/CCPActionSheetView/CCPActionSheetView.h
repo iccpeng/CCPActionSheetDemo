@@ -31,6 +31,8 @@ typedef enum viewAnimateDirection {
 
 @property (nonatomic,assign) viewAnimateStyle viewAnimateStyle;
 
+@property (nonatomic,assign) BOOL isBGClose;
+
 - (instancetype)initWithActionSheetArray:(NSArray *)indexTextArray;
 
 - (void)cellDidSelectBlock:(cellDidSelectBlock) cellDidSelectBlock;

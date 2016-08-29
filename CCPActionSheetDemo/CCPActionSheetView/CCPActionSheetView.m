@@ -244,6 +244,17 @@
 }
 
 
+-(void)setIsBGClose:(BOOL)isBGClose {
+    
+    _isBGClose = isBGClose;
+    
+    if (isBGClose) {
+        
+        [self removeGestureRecognizer:self.alertTap];
+        
+    }
+    
+}
 
 - (void)tap:(UITapGestureRecognizer *)tap {
     
