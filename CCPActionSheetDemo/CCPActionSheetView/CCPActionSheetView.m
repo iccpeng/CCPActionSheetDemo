@@ -244,6 +244,7 @@
 }
 
 
+
 - (void)tap:(UITapGestureRecognizer *)tap {
     
     if (self.closeAlertviewBlock) {
